@@ -60,7 +60,7 @@ const Upload = () => {
     };
 
     return (
-        <div>
+<div className=' pt-36'>
             <center>
                 <h1>Control Panel</h1>
 

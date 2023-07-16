@@ -3,6 +3,7 @@ import { Loader } from '../assets'
 import { requestGPT } from '../helpers/helpers';
 
 const Page = () => {
+
   const [command, setCommand] = useState('');
   const [formUpdate, setFormUpdate] = useState(false);
   const [input, setInput] = useState('');
@@ -62,7 +63,7 @@ const Page = () => {
 
 
   return (
-    <div className='w-full h-screen'>
+<div className='w-full h-auto'>
       <form className='w-full flex flex-col gap-4 justify-center items-center pt-20'
         onSubmit={setInstruction}
       >
@@ -103,7 +104,7 @@ const Page = () => {
 
 
       <div className='output-display w-full flex justify-center items-center pt-28 pb-36'>
-        <div className='bg-slate-400 rounded-lg w-[700px]  h-auto p-7 '>
+        <div className='bg-slate-400 rounded-lg w-[700px]  p-7 '>
           {
             loading ?
 
