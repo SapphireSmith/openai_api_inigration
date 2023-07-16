@@ -1,5 +1,6 @@
 import React from "react"
 import Page from './components/Page'
+import Upload from "./upload/Upload"
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <main>
       <Page/>
+      <Upload/>
     </main>
   )
 }
